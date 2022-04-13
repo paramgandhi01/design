@@ -1,0 +1,84 @@
+.heading{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.heading p{
+    margin-bottom: 0;
+}
+.bgc{
+    background-color: rgb(244,244,244);
+    height:640px;
+}
+.fx{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:40px;
+}
+.f1{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.f2{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.f3{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.hr{
+    width: 25px;
+    transform: rotate(90deg);
+    color: black;
+}
+.toomuch{
+    display: flex;
+    justify-content: center;
+}
+.toomuch i{
+    margin: 5px;
+}
+.tennis{
+    background-image: url("fo.jpg");
+    background-size: cover;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+}
+.tennis1{
+    background-image: url("uso.jpg");
+    background-size: cover;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+}
+.tennis2{
+    background-image: url("ao.jpg");
+    background-size: cover;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+}
+.bttn{
+    background-color: rgb(130,139,244);
+    color: white;
+    border-radius: 7px;
+    margin:5px;
+    padding: 10px;
+    width: 134px;
+    border: none;
+}
+.bttn:hover{
+    background: transparent;
+    border: 1px solid black;
+    color:black ;
+}

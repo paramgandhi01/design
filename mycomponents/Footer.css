@@ -1,0 +1,168 @@
+.footer {
+  height: 550px;
+  background-image: url("scene.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  height: 550px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.down{
+  position: relative;
+  top:40px;
+}
+.a1 {
+  color: white;
+}
+.icons {
+  display: flex;
+  text-align: center;
+}
+.icons div {
+  height: 30px;
+  width: 30px;
+  background: rgb(172, 172, 161, 0.3);
+  margin: 10px;
+}
+.icons div i{
+    position: relative;
+    left: 10px;
+    top:4px;
+    color: rgb(172, 172, 161);
+}
+.facebook{
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+.facebook:hover{
+    background-color: rgb(25, 82, 168);
+}
+.google{
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+.google:hover{
+    background-color: rgb(221, 19, 19);
+}
+.twitter{
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+.twitter:hover{
+    background-color: rgb(44, 118, 230);
+}
+.linkdin{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.linkdin:hover{
+    background-color: rgb(66, 162, 218);
+}
+.b p {
+  color: rgb(172, 172, 161);
+}
+.a1 {
+  display: flex;
+  justify-content: space-between;
+}
+a1 h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.b,
+.c,
+.de,
+.f {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 22%;
+  height: 280px;
+  /* background-color:white ; */
+}
+.c p {
+  color: rgb(130, 139, 244);
+}
+.click {
+  background-color: rgb(130, 139, 244);
+  color: white;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 10px;
+  width: 134px;
+  border: none;
+}
+.click:hover {
+  background: transparent;
+  border: 1px solid white;
+}
+.input {
+  background: rgb(172, 172, 161, 0.3);
+  border: none;
+  border-radius: 13px;
+  padding: 10px;
+  width: 250px;
+  margin: 5px;
+}
+hr {
+  color: rgb(172, 172, 161);
+}
+.ff {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.ff li,
+i {
+  list-style: none;
+  margin-right: 20px;
+}
+.ff li:hover {
+  color: rgb(130, 139, 244);
+  cursor: pointer;
+}
+.ff i {
+  margin-top: 4px;
+}
+.copy {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.rn {
+  margin: 10px;
+}
+
+.gotop a{
+  position: fixed;
+  bottom:20px ;
+  right: 20px;
+  background-color: rgb(193,197,250);
+  width: 40px;
+  height: 40px;
+  background: rgba(193,197,250,0.3);
+  text-decoration: none;
+}
+.gotop i{
+  color: white;
+  position: relative;
+  top:7px;
+  left: 12px;
+  color: rgb(255, 255, 255,0.5);
+}
+.gotop a:hover{
+  background-color:rgb(130, 139, 244); 
+  color: white;
+}
+/*parent hover then change child css using this method*/
+.gotop a:hover i{
+  color: white;
+}
+/* .gotop i:hover{
+ 
+} */

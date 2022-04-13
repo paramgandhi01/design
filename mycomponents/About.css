@@ -1,0 +1,61 @@
+*{
+    margin:0 ;
+    padding:0;
+}
+.ab{
+    margin: 20px;
+    height: 500px;
+}
+/* .ab h2,p{
+    position: relative;
+    top:20px;
+} */
+.ab h2{
+    font-family:
+Georgia, "Times New Roman", Times, serif;
+font-size: 39.2px;
+}
+.ab p{
+    font-family:
+Verdana, Geneva, sans-serif;
+font-size: 14px;
+}
+.about{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+    top:40px;
+}
+.about h3{
+    font-family:
+    Georgia, "Times New Roman", Times, serif;
+}
+.about p{
+    font-family:
+Verdana, Geneva, sans-serif;
+font-size: 14px;
+}
+.about button{
+    background-color: rgb(130,139,244);
+    color: white;
+    border-radius: 7px;
+    margin-top:41px;
+    padding: 10px;
+    width: 134px;
+    border: none;
+}
+.about button:hover{
+    background: transparent;
+    border: 1px solid black;
+    color:black ;
+} 
+.first,.second,.third,.fourth{
+    padding-top: 20px;
+    height: 369px;
+    width: 22%;
+    box-shadow:4px 4px 5px 5px rgb(243,243,243) ;
+}
+.about i{
+    font-size: 60px;
+}

@@ -1,0 +1,61 @@
+.bottom{
+    text-align: center;
+    background-image: url("winter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bottom h3{
+    font-family:
+Verdana, Geneva, sans-serif;
+margin-bottom: 20px;
+}
+.bottom p{
+    font-family:
+    Verdana, Geneva, sans-serif;
+    margin-bottom: 20px;
+}
+.bottom h1{  
+    font-size: 70px;	
+font-family:s
+Georgia, "Times New Roman", Times, serif
+}
+.abc{
+    background-color: rgb(130,139,244);
+    color: white;
+    border-radius: 7px;
+    margin:20px;
+    padding: 10px;
+    width: 90px;
+}
+.abc:hover{
+background:transparent;
+border: 1px solid white;
+color: white;
+}
+.bca{
+background:transparent;
+border: 1px solid white;
+color: white;
+border-radius: 7px;
+margin:4px;
+padding: 10px;
+width: 90px;
+}
+.bca:hover{
+    background-color: rgb(130,139,244);
+    color: white;
+    border: none;
+}
+.dark{
+    height: 495px;
+    background: rgb(0,0,0,0.5);
+}
+.down{
+    position: relative;
+    top: 82px;
+}

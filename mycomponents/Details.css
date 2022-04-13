@@ -1,0 +1,87 @@
+.detail{
+    text-align: center;
+    position: relative;
+    top:30px;
+}
+.details{
+    height: 480px;
+    background-image: url("details.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    color: white;
+}
+.overlap{
+    height: 480px;
+    background: rgb(0,0,0,0.5);
+}
+.tp{
+    display: flex;
+    position: relative;
+    top:20px;
+}
+.fp,.sp{
+    width: 50%;
+    height: 300px;
+}
+.box{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(155, 137, 137); */
+}
+.pic{
+    height: 50%;
+    width: 100%;
+}
+.box div{
+    color: black;
+    position: relative;
+    height: 140px;
+    width: 600px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left:45px;
+    top:10px;
+    padding: 10px;
+}
+.box div p{
+    position: relative;
+    top:20px;
+    left: 10px;
+    font-family:
+Verdana, Geneva, sans-serif;
+font-size: 14px;
+}
+.pic{
+    display: flex;
+    position: relative;
+    top: 30px;
+
+}
+.circle{
+    margin-right: 20px;
+    background-image: url("06.jpg");
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.circle1{
+    margin-right: 20px;
+    background-image: url("07.jpg");
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.bas{
+    position: relative;
+    top:15px;
+}
+.circle,.bas{
+    position: relative;
+    left:160px;
+}
+.circle1{
+    position: relative;
+    left:160px;
+}
